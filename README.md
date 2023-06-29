@@ -12,9 +12,3 @@
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AntoninJuquel&langs_count=10&hide=jupyter%20notebook,vim%20script,cmake,makefile,batchfile,emacs%20lisp,css,html&card_width=699&hide_border=true&theme=transparent&layout=compact" />
   </a>
 </p>
-
-<p align="center">
-  <a href="https://github.com/AntoninJuquel">
-    <img src="https://komarev.com/ghpvc/?username=AntoninJuquel&color=blue&style=flat)" />
-  </a>
-</p>
