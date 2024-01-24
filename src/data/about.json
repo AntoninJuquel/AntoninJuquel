@@ -1,0 +1,27 @@
+{
+  "name": "Juquel Antonin",
+  "roles": ["Full Stack Developer", "Indie Game Developer", "Mobile Developer"],
+  "title": "Hi, I am\nAntonin Juquel",
+  "image": "https://avatars.githubusercontent.com/u/57025128?v=4",
+  "description": "I am always looking for new challenges and opportunities to learn and grow. With a passion for technology and a love for programming, I am dedicated to creating software that is both useful and elegant.",
+  "socials": {
+    "github": {
+      "url": "https://github.com/AntoninJuquel",
+      "icon": "https://cdn.worldvectorlogo.com/logos/github-icon-2.svg"
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/antonin-juquel/",
+      "icon": "https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg"
+    },
+    "itchio": {
+      "url": "https://somindras.itch.io/",
+      "icon": "https://cdn.worldvectorlogo.com/logos/itchio.svg"
+    },
+    "instagram": {
+      "url": "https://www.instagram.com/antoninjuquel/",
+      "icon": "https://cdn.worldvectorlogo.com/logos/instagram-2016-5.svg"
+    }
+  },
+  "resume": "https://drive.google.com/file/d/1Z4Z3Z4Z4Z4Z4Z4Z4Z4Z4Z4Z4Z4Z4Z4Z/view?usp=sharing",
+  "rights": "© 2024 Antonin Juquel. All rights reserved."
+}

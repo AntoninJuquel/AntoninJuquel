@@ -1,0 +1,383 @@
+[
+  {
+    "title": "Lethal Company Mod: Lockout",
+    "date": "2024",
+    "description": "",
+    "image": "https://github.com/AntoninJuquel/lethal-company-lockout/blob/main/icon.png?raw=true",
+    "tags": ["Visual Studio", ".Net", "C#", "Game Development", "Mod"],
+    "category": "Video Game",
+    "github": "https://github.com/AntoninJuquel/lethal-company-lockout",
+    "app": "https://github.com/AntoninJuquel/lethal-company-lockout",
+    "member": [
+      {
+        "name": "",
+        "img": "",
+        "linkedin": "",
+        "github": ""
+      }
+    ]
+  },
+  {
+    "title": "Facial Recognition",
+    "date": "2023",
+    "description": "",
+    "image": "https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202203/face-600x900.png?itok=4wm2x8C2",
+    "tags": [
+      "Tensorflow",
+      "Python",
+      "AI",
+      "Jupyter Notebook",
+      "School Project"
+    ],
+    "category": "AI",
+    "github": "https://github.com/AntoninJuquel/facial-recognition-esiee",
+    "app": "https://github.com/AntoninJuquel/facial-recognition-esiee",
+    "member": [
+      {
+        "name": "",
+        "img": "",
+        "linkedin": "",
+        "github": ""
+      }
+    ]
+  },
+  {
+    "title": "Handwritten Digit Recognition",
+    "date": "2023",
+    "description": "",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*w7pBsjI3t3ZP-4Gdog-JdQ.png",
+    "tags": [
+      "Tensorflow",
+      "Python",
+      "AI",
+      "Jupyter Notebook",
+      "School Project"
+    ],
+    "category": "AI",
+    "github": "https://github.com/AntoninJuquel/deep-learning-esiee/tree/master/Projet",
+    "app": "https://github.com/AntoninJuquel/deep-learning-esiee/tree/master/Projet",
+    "member": [
+      {
+        "name": "",
+        "img": "",
+        "linkedin": "",
+        "github": ""
+      }
+    ]
+  },
+  {
+    "title": "Quiz App",
+    "date": "2023",
+    "description": "",
+    "image": "https://play-lh.googleusercontent.com/hiQHKRhpuGu4pWAFhpto9H7qWKSdX-BjKbDAtZYgm_jfoD0cN7MCllGOn6L3XWo-6Q",
+    "tags": [
+      "Vue.js",
+      "Typescript",
+      "HTML",
+      "CSS",
+      "Docker",
+      "Python",
+      "Flask",
+      "School Project"
+    ],
+    "category": "Web application",
+    "github": "https://github.com/AntoninJuquel/quiz-app-esiee",
+    "app": "https://github.com/AntoninJuquel/quiz-app-esiee",
+    "member": [
+      {
+        "name": "",
+        "img": "",
+        "linkedin": "",
+        "github": ""
+      }
+    ]
+  },
+  {
+    "title": "Powerwash Simulator VR",
+    "date": "2023",
+    "description": "",
+    "image": "https://cdn.futura-sciences.com/sources/images/Oculus-Quest-2.jpg",
+    "tags": ["Unity", "C#", "VR", "School Project"],
+    "category": "Video Game",
+    "github": "https://github.com/AntoninJuquel/extended-reality-esiee",
+    "app": "https://github.com/AntoninJuquel/extended-reality-esiee",
+    "member": [
+      {
+        "name": "",
+        "img": "",
+        "linkedin": "",
+        "github": ""
+      }
+    ]
+  },
+  {
+    "title": "Proxynet",
+    "date": "2023",
+    "description": "",
+    "image": "https://github.com/proxynet-org/client/blob/master/assets/icons/icon.png?raw=true",
+    "tags": [
+      "React Native",
+      "Typescript",
+      "Google Maps API",
+      "React Native Paper",
+      "School Project"
+    ],
+    "category": "Mobile application",
+    "github": "https://github.com/orgs/proxynet-org/repositories",
+    "app": "https://play.google.com/store/apps/details?id=com.proxynet",
+    "member": [
+      {
+        "name": "",
+        "img": "",
+        "linkedin": "",
+        "github": ""
+      }
+    ]
+  },
+  {
+    "title": "Meal Shape",
+    "date": "2023",
+    "description": "",
+    "image": "https://github.com/AntoninJuquel/meal-planner-esiee/blob/master/assets/icon.png?raw=true",
+    "tags": [
+      "React Native",
+      "Typescript",
+      "Spoonacular API",
+      "React Native Paper",
+      "School Project"
+    ],
+    "category": "Mobile application",
+    "github": "https://github.com/AntoninJuquel/meal-planner-esiee",
+    "app": "https://play.google.com/store/apps/details?id=com.mealshape",
+    "member": [
+      {
+        "name": "",
+        "img": "",
+        "linkedin": "",
+        "github": ""
+      }
+    ]
+  },
+  
+  {
+    "title": "Don't Screw Up Stanley",
+    "date": "2022",
+    "description": "",
+    "image": "https://github.com/AntoninJuquel/gamejam-esiee/blob/main/Assets/thunder-removebg-preview.png?raw=true",
+    "tags": ["Unity", "C#", "Game Jam", "Itchio", "School Project"],
+    "category": "Video Game",
+    "github": "https://github.com/AntoninJuquel/gamejam-esiee",
+    "app": "https://github.com/AntoninJuquel/gamejam-esiee",
+    "member": [
+      {
+        "name": "",
+        "img": "",
+        "linkedin": "",
+        "github": ""
+      }
+    ]
+  },
+  {
+    "title": "Planet Lander",
+    "date": "2022",
+    "description": "",
+    "image": "https://github.com/AntoninJuquel/planet-lander-esiee/blob/main/Assets/Sprites/Spaceships/enemy_A.png?raw=true",
+    "tags": ["Unity", "C#", "Game Jam", "Itchio", "School Project"],
+    "category": "Video Game",
+    "github": "https://github.com/AntoninJuquel/planet-lander-esiee",
+    "app": "https://github.com/AntoninJuquel/planet-lander-esiee",
+    "member": [
+      {
+        "name": "",
+        "img": "",
+        "linkedin": "",
+        "github": ""
+      }
+    ]
+  },
+  {
+    "title": "Cheat Alleycat",
+    "date": "2020",
+    "description": "",
+    "image": "https://raw.githubusercontent.com/AntoninJuquel/Cheat_Alleycat/master/assets/icon.png",
+    "tags": [
+      "React Native",
+      "Javascript",
+      "Mobile application",
+      "Google Maps API"
+    ],
+    "category": "Mobile application",
+    "github": "https://github.com/AntoninJuquel/Cheat_Alleycat",
+    "app": "https://github.com/AntoninJuquel/Cheat_Alleycat",
+    "member": [
+      {
+        "name": "",
+        "img": "",
+        "linkedin": "",
+        "github": ""
+      }
+    ]
+  },
+  {
+    "title": "Out of Bounce",
+    "date": "2021",
+    "description": "",
+    "image": "https://github.com/AntoninJuquel/Out-Of-Bounce/blob/main/Assets/Art/Textures/Icon.png?raw=true",
+    "tags": ["Unity", "C#", "Mobile Game", "Itchio", "Play Store"],
+    "category": "Video Game",
+    "github": "https://github.com/AntoninJuquel/Out-Of-Bounce",
+    "app": "https://play.google.com/store/apps/details?id=com.kibblecorp.outofbounce",
+    "member": [
+      {
+        "name": "",
+        "img": "",
+        "linkedin": "",
+        "github": ""
+      }
+    ]
+  },
+  {
+    "title": "Voltventure",
+    "date": "2020",
+    "description": "",
+    "image": "https://img.itch.zone/aW1nLzQ0MDAyOTQucG5n/315x250%23c/QrWZaG.png",
+    "tags": ["Unity", "C#", "Game Jam", "Game Development", "Itchio"],
+    "category": "Video Game",
+    "github": "https://github.com/AntoninJuquel/The-Indie-Games-Lab-Jam-11",
+    "app": "https://somindras.itch.io/voltventure",
+    "member": [
+      {
+        "name": "",
+        "img": "",
+        "linkedin": "",
+        "github": ""
+      }
+    ]
+  },
+  {
+    "title": "Cupgrade",
+    "date": "2020",
+    "description": "",
+    "image": "https://img.itch.zone/aW1nLzM3MjMwMDcucG5n/315x250%23c/FRfmbU.png",
+    "tags": ["Unity", "C#", "Game Jam", "Game Development", "Itchio"],
+    "category": "Video Game",
+    "github": "https://github.com/AntoninJuquel/The-Indie-Games-Lab-Jam-07",
+    "app": "https://somindras.itch.io/cupgrade",
+    "member": [
+      {
+        "name": "",
+        "img": "",
+        "linkedin": "",
+        "github": ""
+      }
+    ]
+  },
+  {
+    "title": "Train your mind",
+    "date": "2020",
+    "description": "",
+    "image": "https://img.itch.zone/aW1nLzM1OTk5MzAucG5n/315x250%23c/5IOjSk.png",
+    "tags": ["Unity", "C#", "Game Jam", "Game Development", "Itchio"],
+    "category": "Video Game",
+    "github": "https://github.com/AntoninJuquel/The-Indie-Games-Lab-Jam-06",
+    "app": "https://somindras.itch.io/train-your-mind",
+    "member": [
+      {
+        "name": "",
+        "img": "",
+        "linkedin": "",
+        "github": ""
+      }
+    ]
+  },
+  {
+    "title": "Island invasion",
+    "date": "2020",
+    "description": "",
+    "image": "https://img.itch.zone/aW1nLzM0MzAxMDkucG5n/315x250%23c/zfBCp1.png",
+    "tags": ["Unity", "C#", "Game Jam", "Game Development", "Itchio"],
+    "category": "Video Game",
+    "github": "https://github.com/AntoninJuquel/The-Indie-Games-Lab-Jam-04",
+    "app": "https://somindras.itch.io/island-invasion",
+    "member": [
+      {
+        "name": "",
+        "img": "",
+        "linkedin": "",
+        "github": ""
+      }
+    ]
+  },
+  {
+    "title": "Crazy lights",
+    "date": "2020",
+    "description": "",
+    "image": "https://img.itch.zone/aW1nLzMzMzY5MTMucG5n/315x250%23c/%2FEjA15.png",
+    "tags": ["Unity", "C#", "Game Jam", "Game Development", "Itchio"],
+    "category": "Video Game",
+    "github": "https://github.com/AntoninJuquel/The-Indie-Games-Lab-Jam-03",
+    "app": "https://somindras.itch.io/crazy-lights",
+    "member": [
+      {
+        "name": "",
+        "img": "",
+        "linkedin": "",
+        "github": ""
+      }
+    ]
+  },
+  {
+    "title": "Simon",
+    "date": "2019",
+    "description": "",
+    "image": "https://github.com/AntoninJuquel/simon/blob/master/simonIco.png?raw=true",
+    "tags": ["HTML", "CSS", "Javascript"],
+    "category": "Web application",
+    "github": "https://github.com/AntoninJuquel/simon",
+    "app": "https://antoninjuquel.github.io/simon/",
+    "member": [
+      {
+        "name": "",
+        "img": "",
+        "linkedin": "",
+        "github": ""
+      }
+    ]
+  },
+  {
+    "title": "Drumkit",
+    "date": "2019",
+    "description": "",
+    "image": "https://github.com/AntoninJuquel/drumkit/blob/master/images/drumIco.png?raw=true",
+    "tags": ["HTML", "CSS", "Javascript"],
+    "category": "Web application",
+    "github": "https://github.com/AntoninJuquel/drumkit",
+    "app": "https://antoninjuquel.github.io/drumkit/",
+    "member": [
+      {
+        "name": "",
+        "img": "",
+        "linkedin": "",
+        "github": ""
+      }
+    ]
+  },
+  {
+    "title": "Finger Dice",
+    "date": "2019",
+    "description": "",
+    "image": "https://github.com/AntoninJuquel/fingerdice/blob/master/images/dice.png?raw=true",
+    "tags": ["HTML", "CSS", "Javascript"],
+    "category": "Web application",
+    "github": "https://github.com/AntoninJuquel/fingerdice",
+    "app": "https://antoninjuquel.github.io/fingerdice/",
+    "member": [
+      {
+        "name": "",
+        "img": "",
+        "linkedin": "",
+        "github": ""
+      }
+    ]
+  }
+]

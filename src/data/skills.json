@@ -1,0 +1,131 @@
+[
+  {
+    "title": "Frontend",
+    "skills": [
+      {
+        "name": "React Js",
+        "image": "https://cdn.worldvectorlogo.com/logos/react-2.svg"
+      },
+      {
+        "name": "HTML",
+        "image": "https://cdn.worldvectorlogo.com/logos/html-1.svg"
+      },
+      {
+        "name": "CSS",
+        "image": "https://cdn.worldvectorlogo.com/logos/css-3.svg"
+      },
+      {
+        "name": "JavaScript",
+        "image": "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
+      },
+      {
+        "name": "TypeScript",
+        "image": "https://cdn.worldvectorlogo.com/logos/typescript.svg"
+      }
+    ]
+  },
+  {
+    "title": "Backend",
+    "skills": [
+      {
+        "name": "Node Js",
+        "image": "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
+      },
+      {
+        "name": "Express Js",
+        "image": "https://cdn.worldvectorlogo.com/logos/express-109.svg"
+      },
+      {
+        "name": "MongoDB",
+        "image": "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg"
+      },
+      {
+        "name": "MySQL",
+        "image": "https://cdn.worldvectorlogo.com/logos/mysql-6.svg"
+      },
+      {
+        "name": "Neo4j",
+        "image": "https://cdn.worldvectorlogo.com/logos/neo4j.svg"
+      },
+      {
+        "name": "Python",
+        "image": "https://cdn.worldvectorlogo.com/logos/python-5.svg"
+      },
+      {
+        "name": "Django",
+        "image": "https://cdn.worldvectorlogo.com/logos/django-community.svg"
+      },
+      {
+        "name": "Java",
+        "image": "https://cdn.worldvectorlogo.com/logos/java.svg"
+      }
+    ]
+  },
+  {
+    "title": "Game Development",
+    "skills": [
+      {
+        "name": "Unity",
+        "image": "https://cdn.worldvectorlogo.com/logos/unity-69.svg"
+      },
+      {
+        "name": "C#",
+        "image": "https://cdn.worldvectorlogo.com/logos/c--4.svg"
+      },
+      {
+        "name": "Unreal Engine",
+        "image": "https://cdn.worldvectorlogo.com/logos/unreal-1.svg"
+      }
+    ]
+  },
+  {
+    "title": "Mobile Development",
+    "skills": [
+      {
+        "name": "React Native",
+        "image": "https://cdn.worldvectorlogo.com/logos/react-2.svg"
+      }
+    ]
+  },
+  {
+    "title": "Others",
+    "skills": [
+      {
+        "name": "Git",
+        "image": "https://cdn.worldvectorlogo.com/logos/git-icon.svg"
+      },
+      {
+        "name": "GitHub",
+        "image": "https://cdn.worldvectorlogo.com/logos/github-icon-1.svg"
+      },
+      {
+        "name": "Gitlab",
+        "image": "https://cdn.worldvectorlogo.com/logos/gitlab.svg"
+      },
+      {
+        "name": "Jira",
+        "image": "https://cdn.worldvectorlogo.com/logos/jira-1.svg"
+      },
+      {
+        "name": "Trello",
+        "image": "https://cdn.worldvectorlogo.com/logos/trello.svg"
+      },
+      {
+        "name": "Figma",
+        "image": "https://cdn.worldvectorlogo.com/logos/figma-5.svg"
+      },
+      {
+        "name": "Visual Studio Code",
+        "image": "https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg"
+      },
+      {
+        "name": "Postman",
+        "image": "https://cdn.worldvectorlogo.com/logos/postman.svg"
+      },
+      {
+        "name": "Visual Studio",
+        "image": "https://cdn.worldvectorlogo.com/logos/visual-studio-2013.svg"
+      }
+    ]
+  }
+]
