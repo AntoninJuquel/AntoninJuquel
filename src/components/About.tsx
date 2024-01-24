@@ -60,6 +60,7 @@ function About() {
               padding: 2,
               textTransform: "none",
             }}
+            href={about.resume}
           >
             Check Resume
           </Button>
