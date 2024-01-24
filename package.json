@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://AntoninJuquel.github.io/AntoninJuquel",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
