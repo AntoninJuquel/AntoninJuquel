@@ -3,9 +3,14 @@ import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
 import CardMedia from "@mui/material/CardMedia";
 import CardContent from "@mui/material/CardContent";
+import CardActions from "@mui/material/CardActions";
 import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
 import Chip from "@mui/material/Chip";
+import Button from "@mui/material/Button";
+
+import ExternalLinkIcon from "@mui/icons-material/OpenInNew";
+import GithubIcon from "@mui/icons-material/GitHub";
 
 type Props = {
   modalState: ModalState;
@@ -55,6 +60,26 @@ function ProjectDetails({ modalState, setModalState }: Props) {
             ))}
           </Stack>
           <CardHeader title={project.title} subheader={project.date} />
+          <CardActions>
+            <Button
+              color="primary"
+              href={project.github}
+              target="_blank"
+              startIcon={<GithubIcon />}
+            >
+              Source Code
+            </Button>
+            {project.app && project.app !== project.github && (
+              <Button
+                color="primary"
+                href={project.app}
+                target="_blank"
+                startIcon={<ExternalLinkIcon />}
+              >
+                Application
+              </Button>
+            )}
+          </CardActions>
           <CardContent>
             <Typography variant="body2" color="text.secondary">
               {project.description}

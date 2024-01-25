@@ -28,7 +28,7 @@ type Props = {
   setModalState: (openModal: ModalState) => void;
 };
 
-function Projects({ modalState, setModalState }: Props) {
+function Projects({ setModalState }: Props) {
   const theme = useTheme();
   const [activeCategory, setActiveCategory] = useState(categories[0]);
   const projectsToRender = projects.filter((project) => {
@@ -53,10 +53,14 @@ function Projects({ modalState, setModalState }: Props) {
             <Card
               sx={{
                 height: "100%",
-                border: `2px solid ${
-                  modalState.project === project ? theme.primary : "transparent"
-                }`,
+                border: "2px solid transparent",
                 transition: "all .3s ease-in-out",
+                backgroundColor: theme.card,
+                ":hover": {
+                  border: `2px solid ${theme.primary}`,
+                  boxShadow: `${theme.shadow} 0px 4px 24px;`,
+                  transform: "scale(1.05)",
+                },
               }}
             >
               <CardActionArea

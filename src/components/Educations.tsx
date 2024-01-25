@@ -8,6 +8,7 @@ import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
+import { useTheme } from "@mui/material/styles";
 
 import Section from "./common/Section";
 import Title from "./common/Title";
@@ -15,6 +16,7 @@ import { sections } from "../data";
 const { educations } = sections;
 
 function Educations() {
+  const theme = useTheme();
   return (
     <Section id="educations">
       <Title>Educations</Title>
@@ -29,13 +31,27 @@ function Educations() {
         {educations.map((education, index) => (
           <TimelineItem key={index}>
             <TimelineContent sx={{ py: "12px", px: 2 }}>
-              <Card>
+              <Card
+                sx={{
+                  backgroundColor: theme.card,
+                  border: `1px solid ${theme.secondary}`,
+                  boxShadow: `${theme.shadow} 0px 4px 24px;`,
+                  transition: "all .3s ease-in-out",
+                  ":hover": {
+                    transform: "scale(1.05)",
+                  },
+                }}
+              >
                 <CardHeader
                   avatar={
                     <img
                       src={education.img}
                       alt={education.school}
-                      style={{ width: "100px", height: "100px", objectFit: "contain"}}
+                      style={{
+                        width: "100px",
+                        height: "100px",
+                        objectFit: "contain",
+                      }}
                     />
                   }
                   title={education.school}

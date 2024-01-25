@@ -10,6 +10,7 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
 import Chip from "@mui/material/Chip";
+import { useTheme } from "@mui/material/styles";
 
 import Section from "./common/Section";
 import Title from "./common/Title";
@@ -17,6 +18,7 @@ import { sections } from "../data";
 const { experiences } = sections;
 
 function Experiences() {
+  const theme = useTheme();
   return (
     <Section id="experiences">
       <Title>Experiences</Title>
@@ -37,7 +39,17 @@ function Experiences() {
               )}
             </TimelineSeparator>
             <TimelineContent sx={{ py: "12px", px: 2 }}>
-              <Card>
+              <Card
+                sx={{
+                  backgroundColor: theme.card,
+                  border: `1px solid ${theme.secondary}`,
+                  boxShadow: `${theme.shadow} 0px 4px 24px;`,
+                  transition: "all .3s ease-in-out",
+                  ":hover": {
+                    transform: "scale(1.05)",
+                  },
+                }}
+              >
                 <CardHeader
                   avatar={
                     <img

@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { useTheme } from "@mui/material/styles";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
+import IconButton from "@mui/material/IconButton";
+import Menu from "@mui/material/Menu";
+import MenuItem from "@mui/material/MenuItem";
+import MenuIcon from "@mui/icons-material/Menu";
 import Typography from "@mui/material/Typography";
 import GithubIcon from "@mui/icons-material/GitHub";
 
@@ -11,7 +15,14 @@ import { sections } from "../data";
 
 function Navbar() {
   const theme = useTheme();
-
+  const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+  const open = Boolean(anchorEl);
+  const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
+    setAnchorEl(event.currentTarget);
+  };
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
   return (
     <React.Fragment>
       <AppBar
@@ -28,6 +39,46 @@ function Navbar() {
               width: "100%",
             }}
           >
+            <IconButton
+              size="large"
+              edge="start"
+              color="inherit"
+              aria-label="menu"
+              sx={{ mr: 2, display: { xs: "flex", md: "none" } }}
+              onClick={handleClick}
+            >
+              <MenuIcon />
+            </IconButton>
+            <Menu
+              id="basic-menu"
+              anchorEl={anchorEl}
+              open={open}
+              onClose={handleClose}
+              MenuListProps={{
+                "aria-labelledby": "basic-button",
+              }}
+              sx={{
+                "& .MuiPaper-root": {
+                  background: theme.card,
+                  color: theme.text_primary,
+                  boxShadow: `${theme.shadow} 0px 4px 24px;`,
+                },
+              }}
+            >
+              {Object.keys(sections).map((page) => (
+                <a
+                  href={`#${page.toLowerCase()}`}
+                  style={{
+                    textDecoration: "none",
+                    color: theme.text_primary,
+                  }}
+                >
+                  <MenuItem key={page} onClick={handleClose}>
+                    {page}
+                  </MenuItem>
+                </a>
+              ))}
+            </Menu>
             <Typography
               variant="h6"
               noWrap

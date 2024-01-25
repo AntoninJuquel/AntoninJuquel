@@ -8,6 +8,10 @@ declare module "@mui/material/styles" {
     text_primary: string;
     text_secondary: string;
     primary: string;
+    secondary: string;
+    button: string;
+    card: string;
+    shadow: string;
   }
   // allow configuration using `createTheme`
   interface ThemeOptions {
@@ -15,5 +19,9 @@ declare module "@mui/material/styles" {
     text_primary?: string;
     text_secondary?: string;
     primary?: string;
+    secondary?: string;
+    button?: string;
+    card?: string;
+    shadow?: string;
   }
 }

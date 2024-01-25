@@ -2,15 +2,19 @@ import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
+import { useTheme } from "@mui/material/styles";
 
 import Section from "./common/Section";
 import Title from "./common/Title";
 
 function Contact() {
+  const theme = useTheme();
   return (
     <Section id="contact">
       <Title>Contact</Title>
-      <Card>
+      <Card
+        sx={{ bgcolor: theme.card, boxShadow: `${theme.shadow} 0px 4px 24px;` }}
+      >
         <CardContent>
           <TextField
             id="name"
@@ -18,6 +22,7 @@ function Contact() {
             variant="outlined"
             margin="normal"
             fullWidth
+            autoComplete="name"
           />
           <TextField
             id="email"
@@ -25,6 +30,8 @@ function Contact() {
             variant="outlined"
             margin="normal"
             fullWidth
+            type="email"
+            autoComplete="email"
           />
           <TextField
             id="subject"
@@ -44,8 +51,18 @@ function Contact() {
           />
           <Button
             variant="contained"
-            color="secondary"
-            style={{ marginTop: "10px", padding: "10px" }}
+            sx={{
+              marginTop: "10px",
+              backgroundColor: theme.button,
+              textTransform: "none",
+              fontSize: 20,
+              borderRadius: 2,
+              padding: 1,
+              transition: "all .3s ease-in-out",
+              ":hover": {
+                transform: "scale(1.01)",
+              },
+            }}
             fullWidth
           >
             Send

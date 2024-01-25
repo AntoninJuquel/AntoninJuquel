@@ -15,9 +15,20 @@ function Skills() {
       <Title>Skills</Title>
       <Grid container justifyContent="center" spacing={2} rowSpacing={5}>
         {skills.map((skill) => (
-          <Grid item key={skill.title} lg={4}>
+          <Grid
+            item
+            key={skill.title}
+            lg={4}
+            sx={{
+              transition: "all .3s ease-in-out",
+              ":hover": {
+                transform: "scale(1.05)",
+              },
+            }}
+          >
             <Box
               border={`1px solid ${theme.primary}`}
+              boxShadow={`${theme.shadow} 0px 4px 24px;`}
               borderRadius={3}
               textAlign="center"
               paddingX={theme.spacing(1)}
@@ -45,6 +56,12 @@ function Skills() {
                       borderRadius={2}
                       padding={theme.spacing(1)}
                       gap={theme.spacing(1)}
+                      sx={{
+                        transition: "all .3s ease-in-out",
+                        ":hover": {
+                          transform: "scale(1.15)",
+                        },
+                      }}
                     >
                       <img
                         src={item.image}

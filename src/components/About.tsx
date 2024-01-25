@@ -52,13 +52,13 @@ function About() {
           </Typography>
           <Button
             variant="contained"
-            color="secondary"
             sx={{
               mt: 2,
               fontSize: 20,
               borderRadius: 5,
               padding: 2,
               textTransform: "none",
+              backgroundColor: theme.button,
             }}
             href={about.resume}
           >
