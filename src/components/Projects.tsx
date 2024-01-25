@@ -92,7 +92,18 @@ function Projects({ setModalState }: Props) {
                 </Stack>
                 <CardHeader title={project.title} subheader={project.date} />
                 <CardContent>
-                  <Typography variant="body2" color="text.secondary">
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    sx={{
+                      textOverflow: "ellipsis",
+                      maxWidth: "100%",
+                      overflow: "hidden",
+                      display: "-webkit-box",
+                      WebkitLineClamp: 3,
+                      WebkitBoxOrient: "vertical",
+                    }}
+                  >
                     {project.description}
                   </Typography>
                 </CardContent>

@@ -67,10 +67,12 @@ function Navbar() {
             >
               {Object.keys(sections).map((page) => (
                 <a
+                  key={page}
                   href={`#${page.toLowerCase()}`}
                   style={{
                     textDecoration: "none",
                     color: theme.text_primary,
+                    textTransform: "uppercase",
                   }}
                 >
                   <MenuItem key={page} onClick={handleClose}>
