@@ -1,6 +1,7 @@
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
+import { useTheme } from "@mui/material/styles";
 
 import Section from "./common/Section";
 import Title from "./common/Title";
@@ -9,6 +10,7 @@ import { sections } from "../data";
 const { about } = sections;
 
 function Footer() {
+  const theme = useTheme();
   return (
     <Section id="footer">
       <Title>{about.name}</Title>
@@ -30,11 +32,7 @@ function Footer() {
           </Button>
         ))}
       </Stack>
-      <Typography
-        variant="body1"
-        align="center"
-        color={(theme) => theme.text_primary}
-      >
+      <Typography variant="body1" align="center" color={theme.text_secondary}>
         {about.rights}
       </Typography>
     </Section>

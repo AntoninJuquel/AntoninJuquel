@@ -60,7 +60,7 @@ function Educations() {
                       {education.degree}
                       <Typography
                         variant="caption"
-                        color="text.secondary"
+                        color={theme.text_secondary}
                         display="block"
                       >
                         {education.date}
@@ -69,12 +69,12 @@ function Educations() {
                   }
                 />
                 <CardContent>
-                  <Typography variant="subtitle2" color="text.secondary">
+                  <Typography variant="subtitle2" color={theme.text_secondary}>
                     Grade: {education.grade}
                   </Typography>
                 </CardContent>
                 <CardContent>
-                  <Typography variant="body2" color="text.secondary">
+                  <Typography variant="body2" color={theme.text_secondary}>
                     {education.description}
                   </Typography>
                 </CardContent>
@@ -83,7 +83,7 @@ function Educations() {
             <TimelineSeparator>
               <TimelineDot variant="outlined" color="secondary" />
               {index !== educations.length && (
-                <TimelineConnector style={{ background: "#854CE6" }} />
+                <TimelineConnector style={{ background: theme.primary }} />
               )}
             </TimelineSeparator>
           </TimelineItem>

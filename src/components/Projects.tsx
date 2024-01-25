@@ -94,7 +94,7 @@ function Projects({ setModalState }: Props) {
                 <CardContent>
                   <Typography
                     variant="body2"
-                    color="text.secondary"
+                    color={theme.text_secondary}
                     sx={{
                       textOverflow: "ellipsis",
                       maxWidth: "100%",

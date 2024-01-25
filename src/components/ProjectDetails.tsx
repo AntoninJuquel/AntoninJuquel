@@ -91,7 +91,7 @@ function ProjectDetails({ modalState, setModalState }: Props) {
           <CardContent>
             <Typography
               variant="body2"
-              color="text.secondary"
+              color={theme.text_secondary}
               whiteSpace="pre-wrap"
             >
               {project.description}

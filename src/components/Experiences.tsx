@@ -35,7 +35,7 @@ function Experiences() {
             <TimelineSeparator>
               <TimelineDot variant="outlined" color="secondary" />
               {index !== experiences.length - 1 && (
-                <TimelineConnector style={{ background: "#854CE6" }} />
+                <TimelineConnector style={{ background: theme.primary }} />
               )}
             </TimelineSeparator>
             <TimelineContent sx={{ py: "12px", px: 2 }}>
@@ -68,7 +68,7 @@ function Experiences() {
                       {experience.company}
                       <Typography
                         variant="caption"
-                        color="text.secondary"
+                        color={theme.text_secondary}
                         display="block"
                       >
                         {experience.date}
@@ -87,7 +87,7 @@ function Experiences() {
                   ))}
                 </Stack>
                 <CardContent>
-                  <Typography variant="body2" color="text.secondary">
+                  <Typography variant="body2" color={theme.text_secondary}>
                     {experience.description}
                   </Typography>
                 </CardContent>
