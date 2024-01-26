@@ -33,9 +33,8 @@ function Educations() {
             <TimelineContent sx={{ py: "12px", px: 2 }}>
               <Card
                 sx={{
-                  backgroundColor: theme.card,
-                  border: `1px solid ${theme.secondary}`,
-                  boxShadow: `${theme.shadow} 0px 4px 24px;`,
+                  border: `1px solid ${theme.palette.primary.main}`,
+                  boxShadow: `${theme.palette.primary.main} 0px 4px 24px;`,
                   transition: "all .3s ease-in-out",
                   ":hover": {
                     transform: "scale(1.05)",
@@ -58,23 +57,19 @@ function Educations() {
                   subheader={
                     <>
                       {education.degree}
-                      <Typography
-                        variant="caption"
-                        color={theme.text_secondary}
-                        display="block"
-                      >
+                      <Typography variant="caption" display="block">
                         {education.date}
                       </Typography>
                     </>
                   }
                 />
                 <CardContent>
-                  <Typography variant="subtitle2" color={theme.text_secondary}>
+                  <Typography variant="subtitle2">
                     Grade: {education.grade}
                   </Typography>
                 </CardContent>
                 <CardContent>
-                  <Typography variant="body2" color={theme.text_secondary}>
+                  <Typography variant="body2">
                     {education.description}
                   </Typography>
                 </CardContent>
@@ -83,7 +78,9 @@ function Educations() {
             <TimelineSeparator>
               <TimelineDot variant="outlined" color="secondary" />
               {index !== educations.length && (
-                <TimelineConnector style={{ background: theme.primary }} />
+                <TimelineConnector
+                  style={{ background: theme.palette.secondary.main }}
+                />
               )}
             </TimelineSeparator>
           </TimelineItem>

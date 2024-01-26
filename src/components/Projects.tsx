@@ -55,10 +55,10 @@ function Projects({ setModalState }: Props) {
                 height: "100%",
                 border: "2px solid transparent",
                 transition: "all .3s ease-in-out",
-                backgroundColor: theme.card,
+                backgroundColor: theme.palette.background.paper,
                 ":hover": {
-                  border: `2px solid ${theme.primary}`,
-                  boxShadow: `${theme.shadow} 0px 4px 24px;`,
+                  border: `2px solid ${theme.palette.secondary.main}`,
+                  boxShadow: `${theme.palette.secondary.main} 0px 4px 24px;`,
                   transform: "scale(1.05)",
                 },
               }}
@@ -93,7 +93,7 @@ function Projects({ setModalState }: Props) {
                 <CardContent>
                   <Typography
                     variant="body2"
-                    color={theme.text_secondary}
+                    color={theme.palette.text.secondary}
                     sx={{
                       textOverflow: "ellipsis",
                       maxWidth: "100%",

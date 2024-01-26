@@ -32,7 +32,11 @@ function Footer() {
           </Button>
         ))}
       </Stack>
-      <Typography variant="body1" align="center" color={theme.text_secondary}>
+      <Typography
+        variant="body1"
+        align="center"
+        color={theme.palette.text.primary}
+      >
         {about.rights}
       </Typography>
     </Section>

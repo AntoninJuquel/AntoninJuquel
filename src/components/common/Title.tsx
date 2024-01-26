@@ -13,7 +13,7 @@ function Title({ children }: TitleProps) {
       fontWeight="bold"
       component="h2"
       gutterBottom
-      color={theme.text_primary}
+      color={theme.palette.text.primary}
       textAlign="center"
     >
       {children}

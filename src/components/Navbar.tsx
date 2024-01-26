@@ -28,7 +28,7 @@ function Navbar() {
       <AppBar
         position="fixed"
         sx={{
-          background: theme.bg,
+          background: theme.palette.background.default,
         }}
       >
         <Toolbar>
@@ -59,9 +59,10 @@ function Navbar() {
               }}
               sx={{
                 "& .MuiPaper-root": {
-                  background: theme.card,
-                  color: theme.text_primary,
-                  boxShadow: `${theme.shadow} 0px 4px 24px;`,
+                  background: theme.palette.background.paper,
+                  color: theme.palette.text.primary,
+                  boxShadow: `${theme.palette.primary.main} 0px 4px 24px;`,
+                  border: `2px solid ${theme.palette.primary.main}`,
                 },
               }}
             >
@@ -71,7 +72,7 @@ function Navbar() {
                   href={`#${page.toLowerCase()}`}
                   style={{
                     textDecoration: "none",
-                    color: theme.text_primary,
+                    color: theme.palette.text.primary,
                     textTransform: "uppercase",
                   }}
                 >
@@ -93,7 +94,7 @@ function Navbar() {
                 fontFamily: "monospace",
                 fontWeight: 700,
                 letterSpacing: ".3rem",
-                color: theme.text_primary,
+                color: theme.palette.text.primary,
                 textDecoration: "none",
               }}
             >
@@ -109,7 +110,11 @@ function Navbar() {
               {Object.keys(sections).map((page) => (
                 <Button
                   key={page}
-                  sx={{ my: 2, color: theme.text_primary, display: "block" }}
+                  sx={{
+                    my: 2,
+                    color: theme.palette.text.primary,
+                    display: "block",
+                  }}
                   href={`#${page.toLowerCase()}`}
                 >
                   {page}

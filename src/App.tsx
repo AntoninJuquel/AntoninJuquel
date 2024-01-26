@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 import ProjectDetails from "./components/ProjectDetails";
 
 const Body = styled("div")(({ theme }) => ({
-  background: theme.bg,
+  background: theme.palette.background.default,
   width: "100%",
   overflowX: "hidden",
 }));

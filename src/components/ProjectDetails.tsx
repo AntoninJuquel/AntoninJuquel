@@ -50,12 +50,13 @@ function ProjectDetails({ modalState, setModalState }: Props) {
       {project ? (
         <Card
           sx={{
-            boxShadow: `${theme.shadow} 0px 4px 24px;`,
+            border: `2px solid ${theme.palette.secondary.main}`,
+            boxShadow: `${theme.palette.secondary.main} 0px 4px 24px;`,
             width: "90vw",
             height: "90vh",
             margin: "auto",
             overflow: "auto",
-            backgroundColor: theme.card,
+            backgroundColor: theme.palette.background.paper,
           }}
         >
           <CardActions>
@@ -141,7 +142,7 @@ function ProjectDetails({ modalState, setModalState }: Props) {
             ) : (
               <Typography
                 variant="body2"
-                color={theme.text_secondary}
+                color={theme.palette.text.secondary}
                 whiteSpace="pre-wrap"
               >
                 {project.description}

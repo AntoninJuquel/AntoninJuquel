@@ -67,7 +67,10 @@ function Contact() {
     <Section id="contact">
       <Title>Contact</Title>
       <Card
-        sx={{ bgcolor: theme.card, boxShadow: `${theme.shadow} 0px 4px 24px;` }}
+        sx={{
+          border: `1px solid ${theme.palette.secondary.main}`,
+          boxShadow: `${theme.palette.secondary.main} 0px 4px 24px;`,
+        }}
       >
         <CardContent>
           <form ref={form} onSubmit={handleSubmit}>
@@ -120,7 +123,6 @@ function Contact() {
               variant="contained"
               sx={{
                 marginTop: "10px",
-                backgroundColor: theme.button,
                 textTransform: "none",
                 fontSize: 20,
                 borderRadius: 2,
@@ -149,7 +151,7 @@ function Contact() {
           onClose={handleClose}
           severity={alertState.severity}
           variant="filled"
-          sx={{ width: "100%", color: theme.text_primary }}
+          sx={{ width: "100%", color: theme.palette.text.primary }}
         >
           {alertState.message}
         </Alert>

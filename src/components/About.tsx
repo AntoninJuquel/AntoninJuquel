@@ -25,19 +25,19 @@ function About() {
             fontWeight="bold"
             component="h2"
             gutterBottom
-            color={theme.text_primary}
             whiteSpace="pre"
+            color={theme.palette.text.primary}
           >
             {about.title}
           </Typography>
           <Typography
             variant="h4"
             gutterBottom
-            color={theme.text_primary}
             sx={{ display: "flex", gap: ".5rem" }}
+            color={theme.palette.text.primary}
           >
             I am a
-            <span style={{ color: theme.primary }}>
+            <span style={{ color: theme.palette.secondary.main }}>
               <Typewriter
                 options={{
                   strings: about.roles,
@@ -47,7 +47,7 @@ function About() {
               />
             </span>
           </Typography>
-          <Typography variant="h5" color={theme.text_secondary}>
+          <Typography variant="h5" color={theme.palette.text.secondary}>
             {about.description}
           </Typography>
           <Button
@@ -58,7 +58,6 @@ function About() {
               borderRadius: 5,
               padding: 2,
               textTransform: "none",
-              backgroundColor: theme.button,
             }}
             href={about.resume}
           >

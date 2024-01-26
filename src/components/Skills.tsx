@@ -27,9 +27,9 @@ function Skills() {
             }}
           >
             <Box
-              border={`1px solid ${theme.primary}`}
-              boxShadow={`${theme.shadow} 0px 4px 24px;`}
-              bgcolor={theme.card_light}
+              border={`1px solid ${theme.palette.secondary.main}`}
+              boxShadow={`${theme.palette.secondary.main} 0px 4px 24px;`}
+              bgcolor={theme.palette.background.paper}
               borderRadius={3}
               textAlign="center"
               paddingX={theme.spacing(1)}
@@ -39,7 +39,7 @@ function Skills() {
               <Typography
                 variant="h5"
                 gutterBottom
-                color={theme.text_secondary}
+                color={theme.palette.text.secondary}
                 mb={5}
                 fontWeight="bold"
               >
@@ -53,7 +53,7 @@ function Skills() {
                       justifyContent="center"
                       alignContent="center"
                       alignItems="center"
-                      border={`1px solid ${theme.text_secondary}`}
+                      border={`1px solid ${theme.palette.primary.main}`}
                       borderRadius={2}
                       padding={theme.spacing(1)}
                       gap={theme.spacing(1)}
@@ -69,7 +69,10 @@ function Skills() {
                         alt={item.name}
                         style={{ width: "24px", height: "24px" }}
                       />
-                      <Typography variant="body1" color={theme.text_secondary}>
+                      <Typography
+                        variant="body1"
+                        color={theme.palette.text.secondary}
+                      >
                         {item.name}
                       </Typography>
                     </Box>

@@ -35,15 +35,16 @@ function Experiences() {
             <TimelineSeparator>
               <TimelineDot variant="outlined" color="secondary" />
               {index !== experiences.length - 1 && (
-                <TimelineConnector style={{ background: theme.primary }} />
+                <TimelineConnector
+                  style={{ background: theme.palette.secondary.main }}
+                />
               )}
             </TimelineSeparator>
             <TimelineContent sx={{ py: "12px", px: 2 }}>
               <Card
                 sx={{
-                  backgroundColor: theme.card,
-                  border: `1px solid ${theme.secondary}`,
-                  boxShadow: `${theme.shadow} 0px 4px 24px;`,
+                  border: `1px solid ${theme.palette.primary.main}`,
+                  boxShadow: `${theme.palette.primary.main} 0px 4px 24px;`,
                   transition: "all .3s ease-in-out",
                   ":hover": {
                     transform: "scale(1.05)",
@@ -66,11 +67,7 @@ function Experiences() {
                   subheader={
                     <>
                       {experience.company}
-                      <Typography
-                        variant="caption"
-                        color={theme.text_secondary}
-                        display="block"
-                      >
+                      <Typography variant="caption" display="block">
                         {experience.date}
                       </Typography>
                     </>
@@ -87,7 +84,7 @@ function Experiences() {
                   ))}
                 </Stack>
                 <CardContent>
-                  <Typography variant="body2" color={theme.text_secondary}>
+                  <Typography variant="body2">
                     {experience.description}
                   </Typography>
                 </CardContent>
