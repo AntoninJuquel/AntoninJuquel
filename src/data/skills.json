@@ -21,6 +21,10 @@
       {
         "name": "TypeScript",
         "image": "https://cdn.worldvectorlogo.com/logos/typescript.svg"
+      },
+      {
+        "name": "MUI",
+        "image": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
       }
     ]
   },
