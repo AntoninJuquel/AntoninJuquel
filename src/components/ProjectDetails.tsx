@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import Modal from "@mui/material/Modal";
 import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
@@ -17,7 +18,6 @@ import ExternalLinkIcon from "@mui/icons-material/OpenInNew";
 import GithubIcon from "@mui/icons-material/GitHub";
 import DownloadIcon from "@mui/icons-material/Download";
 import Close from "@mui/icons-material/Close";
-import { useEffect, useState } from "react";
 
 type Props = {
   modalState: ModalState;
