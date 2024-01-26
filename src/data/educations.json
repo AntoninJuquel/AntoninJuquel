@@ -1,6 +1,6 @@
 [
   {
-    "img": "https://upload.wikimedia.org/wikipedia/fr/thumb/7/71/Logo_ESIEE_Paris.svg/1200px-Logo_ESIEE_Paris.svg.png",
+    "image": "https://upload.wikimedia.org/wikipedia/fr/thumb/7/71/Logo_ESIEE_Paris.svg/1200px-Logo_ESIEE_Paris.svg.png",
     "school": "ESIEE Paris",
     "date": "2021 - 2024",
     "grade": "N/A",
@@ -9,7 +9,7 @@
     "diploma": ""
   },
   {
-    "img": "https://www.gpi2d.greta.fr/app/uploads/2021/10/Louis-Armand.jpg",
+    "image": "https://www.gpi2d.greta.fr/app/uploads/2021/10/Louis-Armand.jpg",
     "school": "Lycée Louis Armand",
     "date": "2019 - 2021",
     "grade": "82.05%",
@@ -18,7 +18,7 @@
     "diploma": ""
   },
   {
-    "img": "https://www.aulnay-sous-bois.fr/wp-content/uploads/2019/10/logo-region-ile-de-france.png",
+    "image": "https://www.aulnay-sous-bois.fr/wp-content/uploads/2019/10/logo-region-ile-de-france.png",
     "school": "Lycée Romain Rolland",
     "date": "2018",
     "grade": "70.25%",

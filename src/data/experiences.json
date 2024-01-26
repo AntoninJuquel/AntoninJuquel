@@ -1,6 +1,6 @@
 [
   {
-    "img": "https://woody-technologies.com/wp-content/themes/woody/img/woody-technology-pink-logo.svg",
+    "image": "https://woody-technologies.com/wp-content/themes/woody/img/woody-technology-pink-logo.svg",
     "role": "Fullstack Engineering Intern",
     "company": "Woody Technologies",
     "date": "Sept 2021 - Present (3 years)",
@@ -9,7 +9,7 @@
     "doc": ""
   },
   {
-    "img": "https://woody-technologies.com/wp-content/themes/woody/img/woody-technology-pink-logo.svg",
+    "image": "https://woody-technologies.com/wp-content/themes/woody/img/woody-technology-pink-logo.svg",
     "role": "Frontend Developer Intern",
     "company": "Woody Technologies",
     "date": "Jan 2021 - Feb 2021 (2 months)",
@@ -18,7 +18,7 @@
     "doc": ""
   },
   {
-    "img": "https://uballers.com/assets/img/brand/BallonRouge.png",
+    "image": "https://uballers.com/assets/img/brand/BallonRouge.png",
     "role": "Mobile Developer Intern",
     "company": "Uballers",
     "date": "May 2020 - June 2020 (1 month)",
@@ -27,7 +27,7 @@
     "doc": ""
   },
   {
-    "img": "https://us1-photo.nextdoor.com/pages_avatar_photos/54/7a/547af1a1f2c3c9277c5512069a710e34.png",
+    "image": "https://us1-photo.nextdoor.com/pages_avatar_photos/54/7a/547af1a1f2c3c9277c5512069a710e34.png",
     "role": "Responsible for the creation and management of the new digital space",
     "company": "Centre d'Action Sociale de la Ville de Paris 11ème arrondissement (CASVP11)",
     "date": "March 2019 - Sept 2019 (7 months)",
