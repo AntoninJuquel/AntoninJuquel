@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Grid from "@mui/material/Grid";
@@ -17,17 +18,7 @@ import Section from "./common/Section";
 import Title from "./common/Title";
 
 import { sections } from "../data";
-import { useState } from "react";
-const { projects } = sections;
-
-const categories = [
-  "All",
-  ...new Set(projects.map((project) => project.category)),
-];
-const projectTitles = projects.map((project) => project.title);
-const projectTags = [
-  ...new Set(projects.map((project) => project.tags).flat()),
-];
+import { useData } from "../hooks/useData";
 
 type Props = {
   modalState: ModalState;
@@ -36,8 +27,22 @@ type Props = {
 
 function Projects({ setModalState }: Props) {
   const theme = useTheme();
+  const [categories, setCategories] = useState<string[]>(["All"]);
   const [activeCategory, setActiveCategory] = useState(categories[0]);
   const [activeFilters, setActiveFilters] = useState<string[]>([]);
+  const [projectTags, setProjectTags] = useState<string[]>([]);
+  const [projectTitles, setProjectTitles] = useState<string[]>([]);
+  const projects = useData<Project[]>(sections.projects);
+  useEffect(() => {
+    setCategories([
+      "All",
+      ...new Set(projects.map((project) => project.category)),
+    ]);
+    setProjectTags([
+      ...new Set(projects.map((project) => project.tags).flat()),
+    ]);
+    setProjectTitles(projects.map((project) => project.title));
+  }, [projects]);
 
   const projectsToRender = projects.filter((project) => {
     const hasFilter = activeFilters.length > 0;

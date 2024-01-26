@@ -6,7 +6,7 @@ import educations from "./educations.json";
 
 export const sections = {
   about: {
-    url: "",
+    url: "https://raw.githubusercontent.com/AntoninJuquel/AntoninJuquel/main/src/data/about.json",
     data: about,
   },
   skills: {

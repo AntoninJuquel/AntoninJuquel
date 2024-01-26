@@ -15,10 +15,11 @@ import { useTheme } from "@mui/material/styles";
 import Section from "./common/Section";
 import Title from "./common/Title";
 import { sections } from "../data";
-const { experiences } = sections;
+import { useData } from "../hooks/useData";
 
 function Experiences() {
   const theme = useTheme();
+  const experiences = useData<Experience[]>(sections.experiences);
   return (
     <Section id="experiences">
       <Title>Experiences</Title>
@@ -54,7 +55,7 @@ function Experiences() {
                 <CardHeader
                   avatar={
                     <img
-                      src={experience.img}
+                      src={experience.image}
                       alt={experience.company}
                       style={{
                         width: "100px",

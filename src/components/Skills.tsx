@@ -5,11 +5,13 @@ import { useTheme } from "@mui/material/styles";
 
 import Title from "./common/Title";
 import Section from "./common/Section";
+
 import { sections } from "../data";
-const { skills } = sections;
+import { useData } from "../hooks/useData";
 
 function Skills() {
   const theme = useTheme();
+  const skills = useData<SkillCategory[]>(sections.skills);
   return (
     <Section id="skills">
       <Title>Skills</Title>

@@ -1,7 +1,7 @@
 {
-  "name": "Juquel Antonin",
+  "firstName": "Antonin",
+  "lastName": "Juquel",
   "roles": ["Full Stack Developer", "Indie Game Developer", "Mobile Developer"],
-  "title": "Hi, I am\nAntonin Juquel",
   "image": "https://avatars.githubusercontent.com/u/57025128?v=4",
   "description": "I am always looking for new challenges and opportunities to learn and grow. With a passion for technology and a love for programming, I am dedicated to creating software that is both useful and elegant.",
   "socials": {

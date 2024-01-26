@@ -13,10 +13,11 @@ import { useTheme } from "@mui/material/styles";
 import Section from "./common/Section";
 import Title from "./common/Title";
 import { sections } from "../data";
-const { educations } = sections;
+import { useData } from "../hooks/useData";
 
 function Educations() {
   const theme = useTheme();
+  const educations = useData<Education[]>(sections.educations);
   return (
     <Section id="educations">
       <Title>Educations</Title>
@@ -44,7 +45,7 @@ function Educations() {
                 <CardHeader
                   avatar={
                     <img
-                      src={education.img}
+                      src={education.image}
                       alt={education.school}
                       style={{
                         width: "100px",

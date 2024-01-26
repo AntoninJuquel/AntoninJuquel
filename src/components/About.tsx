@@ -8,10 +8,12 @@ import Typewriter from "typewriter-effect";
 
 import Section from "./common/Section";
 import { sections } from "../data";
-const { about } = sections;
+import { useData } from "../hooks/useData";
 
 function About() {
   const theme = useTheme();
+  const about = useData<About>(sections.about);
+
   return (
     <Section id="about">
       <Stack
@@ -28,7 +30,8 @@ function About() {
             whiteSpace="pre"
             color={theme.palette.text.primary}
           >
-            {about.title}
+            Hi, I am <br />
+            {about.lastName} {about.firstName} 👋
           </Typography>
           <Typography
             variant="h4"
@@ -43,6 +46,7 @@ function About() {
                   strings: about.roles,
                   autoStart: true,
                   loop: true,
+                  cursor: "\u25A0",
                 }}
               />
             </span>
@@ -66,7 +70,7 @@ function About() {
         </Box>
         <Avatar
           src={about.image}
-          alt={about.name}
+          alt={about.firstName}
           sx={{ width: "35%", height: "35%", minWidth: 300, minHeight: 300 }}
         />
       </Stack>

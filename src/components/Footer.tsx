@@ -7,13 +7,14 @@ import Section from "./common/Section";
 import Title from "./common/Title";
 
 import { sections } from "../data";
-const { about } = sections;
+import { useData } from "../hooks/useData";
 
 function Footer() {
   const theme = useTheme();
+  const about = useData(sections.about);
   return (
     <Section id="footer">
-      <Title>{about.name}</Title>
+      <Title>{`${about.lastName} ${about.firstName}`}</Title>
       <Stack direction="row" spacing={2} justifyContent="center">
         {Object.entries(about.socials).map(([key, value]) => (
           <Button

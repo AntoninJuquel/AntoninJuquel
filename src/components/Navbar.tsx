@@ -98,7 +98,7 @@ function Navbar() {
                 textDecoration: "none",
               }}
             >
-              {sections.about.name}
+              {sections.about.data.lastName} {sections.about.data.firstName}
             </Typography>
             <Box
               sx={{
@@ -124,7 +124,7 @@ function Navbar() {
             <Button
               variant="outlined"
               startIcon={<GithubIcon />}
-              href={sections.about.socials.github.url}
+              href={sections.about.data.socials.github.url}
               target="_blank"
               sx={{
                 position: "absolute",
