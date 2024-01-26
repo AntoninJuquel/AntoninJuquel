@@ -1,7 +1,7 @@
 <p align="center">
   <h2>
     👉
-    <a href="https://antoninjuquel.github.io/AntoninJuquel/">
+    <a href="https://antoninjuquel.github.io/AntoninJuquel/" target="_blank">
       Portfolio
     </a>
   </h2>
