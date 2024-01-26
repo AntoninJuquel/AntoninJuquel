@@ -11,9 +11,13 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import { useTheme } from "@mui/material/styles";
 
+import Markdown from "react-markdown";
+
 import ExternalLinkIcon from "@mui/icons-material/OpenInNew";
 import GithubIcon from "@mui/icons-material/GitHub";
+import DownloadIcon from "@mui/icons-material/Download";
 import Close from "@mui/icons-material/Close";
+import { useEffect, useState } from "react";
 
 type Props = {
   modalState: ModalState;
@@ -24,6 +28,15 @@ function ProjectDetails({ modalState, setModalState }: Props) {
   const theme = useTheme();
   const { project } = modalState;
   const onClose = () => setModalState({ project: null, isOpen: false });
+
+  const [readme, setReadme] = useState("");
+
+  useEffect(() => {
+    if (!project?.readme) return;
+    fetch(project.readme)
+      .then((res) => res.text())
+      .then((text) => setReadme(text));
+  }, [project?.readme]);
 
   return (
     <Modal
@@ -50,13 +63,28 @@ function ProjectDetails({ modalState, setModalState }: Props) {
               <Close />
             </IconButton>
           </CardActions>
-          <CardMedia
-            component="img"
-            height="194"
-            image={project.image}
-            alt={project.title}
-            sx={{ objectFit: "contain" }}
-          />
+          {project.video ? (
+            <CardMedia
+              component="video"
+              image={project.video}
+              controls
+              sx={{
+                width: "100%",
+                maxWidth: "540px",
+                margin: "auto",
+              }}
+            />
+          ) : (
+            <CardMedia
+              component="img"
+              image={project.image}
+              alt={project.title}
+              sx={{
+                height: "300px",
+                objectFit: "contain",
+              }}
+            />
+          )}
           <Stack
             direction="row"
             sx={{ padding: "1rem" }}
@@ -69,33 +97,56 @@ function ProjectDetails({ modalState, setModalState }: Props) {
           </Stack>
           <CardHeader title={project.title} subheader={project.date} />
           <CardActions>
-            <Button
-              color="primary"
-              href={project.github}
-              target="_blank"
-              startIcon={<GithubIcon />}
-            >
-              Source Code
-            </Button>
-            {project.app && project.app !== project.github && (
+            {project.source && (
               <Button
                 color="primary"
-                href={project.app}
+                href={project.source}
+                target="_blank"
+                startIcon={<GithubIcon />}
+              >
+                Source Code
+              </Button>
+            )}
+            {project.application && (
+              <Button
+                color="primary"
+                href={project.application}
                 target="_blank"
                 startIcon={<ExternalLinkIcon />}
               >
                 Application
               </Button>
             )}
+            {project.report && (
+              <Button
+                color="primary"
+                href={project.report}
+                startIcon={<DownloadIcon />}
+              >
+                Report
+              </Button>
+            )}
           </CardActions>
           <CardContent>
-            <Typography
-              variant="body2"
-              color={theme.text_secondary}
-              whiteSpace="pre-wrap"
-            >
-              {project.description}
-            </Typography>
+            {project.readme ? (
+              <div
+                style={{
+                  paddingLeft: "1rem",
+                  overflow: "auto",
+                  whiteSpace: "pre-wrap",
+                }}
+              >
+                <Markdown>{readme}</Markdown>
+              </div>
+            ) : (
+              <Typography
+                variant="body2"
+                color={theme.text_secondary}
+                whiteSpace="pre-wrap"
+              >
+                {project.description}
+              </Typography>
+            )}
           </CardContent>
         </Card>
       ) : (

@@ -11,13 +11,18 @@ type Member = {
 };
 
 type Project = {
-  title: string;
-  date: string;
-  description: string;
   image: string;
+  title: string;
   tags: string[];
+  date: string;
   category: string;
-  github: string;
-  app: string;
-  member: Member[];
+  description: string;
+  source: string;
+
+  members?: Member[];
+  video?: string;
+  screenshots?: string[];
+  application?: string;
+  report?: string;
+  readme?: string;
 };

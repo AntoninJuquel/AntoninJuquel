@@ -75,7 +75,6 @@ function Projects({ setModalState }: Props) {
               >
                 <CardMedia
                   component="img"
-                  height="194"
                   image={project.image}
                   alt={project.title}
                   sx={{ objectFit: "contain" }}

@@ -11,6 +11,7 @@ declare module "@mui/material/styles" {
     secondary: string;
     button: string;
     card: string;
+    card_light: string;
     shadow: string;
   }
   // allow configuration using `createTheme`
@@ -22,6 +23,7 @@ declare module "@mui/material/styles" {
     secondary?: string;
     button?: string;
     card?: string;
+    card_light?: string;
     shadow?: string;
   }
 }

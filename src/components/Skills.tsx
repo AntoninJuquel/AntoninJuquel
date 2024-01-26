@@ -29,6 +29,7 @@ function Skills() {
             <Box
               border={`1px solid ${theme.primary}`}
               boxShadow={`${theme.shadow} 0px 4px 24px;`}
+              bgcolor={theme.card_light}
               borderRadius={3}
               textAlign="center"
               paddingX={theme.spacing(1)}

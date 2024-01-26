@@ -2,20 +2,21 @@
   {
     "title": "Lethal Company Mod: Lockout",
     "date": "2024",
-    "description": "",
+    "description": "A simple mod for the game Lethal Company, that lockout the facility for a period of time",
     "image": "https://github.com/AntoninJuquel/lethal-company-lockout/blob/main/icon.png?raw=true",
     "tags": ["Visual Studio", ".Net", "C#", "Game Development", "Mod"],
     "category": "Video Game",
-    "github": "https://github.com/AntoninJuquel/lethal-company-lockout",
-    "app": "https://github.com/AntoninJuquel/lethal-company-lockout",
-    "member": [
+    "source": "https://github.com/AntoninJuquel/lethal-company-lockout",
+    "application": "",
+    "members": [
       {
         "name": "",
         "img": "",
         "linkedin": "",
         "github": ""
       }
-    ]
+    ],
+    "readme": "https://raw.githubusercontent.com/AntoninJuquel/lethal-company-lockout/main/README.md"
   },
   {
     "title": "Facial Recognition",
@@ -30,9 +31,10 @@
       "School Project"
     ],
     "category": "AI",
-    "github": "https://github.com/AntoninJuquel/facial-recognition-esiee",
-    "app": "https://github.com/AntoninJuquel/facial-recognition-esiee",
-    "member": [
+    "source": "https://github.com/AntoninJuquel/facial-recognition-esiee",
+    "application": "",
+    "report": "https://github.com/AntoninJuquel/facial-recognition-esiee/blob/main/Juquel_Hiruthayaraj.pdf?raw=true",
+    "members": [
       {
         "name": "",
         "img": "",
@@ -44,7 +46,7 @@
   {
     "title": "Handwritten Digit Recognition",
     "date": "2023",
-    "description": "",
+    "description": "In this project, we built deep learning models to solve a handwritten digit image recognition task.\nWe started with a simple perceptron, then added layers to create an MLP, and finally, we experimented with a CNN.\nWe evaluated and compared the performance of these different models to understand their strengths and weaknesses.",
     "image": "https://miro.medium.com/v2/resize:fit:1200/1*w7pBsjI3t3ZP-4Gdog-JdQ.png",
     "tags": [
       "Tensorflow",
@@ -54,16 +56,18 @@
       "School Project"
     ],
     "category": "AI",
-    "github": "https://github.com/AntoninJuquel/deep-learning-esiee/tree/master/Projet",
-    "app": "https://github.com/AntoninJuquel/deep-learning-esiee/tree/master/Projet",
-    "member": [
+    "source": "https://github.com/AntoninJuquel/deep-learning-esiee/tree/master/Projet",
+    "report": "https://github.com/AntoninJuquel/deep-learning-esiee/blob/master/Projet/Rendus/report.pdf?raw=true",
+    "application": "",
+    "members": [
       {
         "name": "",
         "img": "",
         "linkedin": "",
         "github": ""
       }
-    ]
+    ],
+    "readme": "https://raw.githubusercontent.com/AntoninJuquel/deep-learning-esiee/master/Projet/Rendus/report.md"
   },
   {
     "title": "Quiz App",
@@ -81,9 +85,9 @@
       "School Project"
     ],
     "category": "Web application",
-    "github": "https://github.com/AntoninJuquel/quiz-app-esiee",
-    "app": "https://github.com/AntoninJuquel/quiz-app-esiee",
-    "member": [
+    "source": "https://github.com/AntoninJuquel/quiz-app-esiee",
+    "application": "",
+    "members": [
       {
         "name": "",
         "img": "",
@@ -93,15 +97,16 @@
     ]
   },
   {
-    "title": "Powerwash Simulator VR",
+    "title": "SuperWash",
     "date": "2023",
     "description": "",
     "image": "https://cdn.futura-sciences.com/sources/images/Oculus-Quest-2.jpg",
     "tags": ["Unity", "C#", "VR", "School Project"],
     "category": "Video Game",
-    "github": "https://github.com/AntoninJuquel/extended-reality-esiee",
-    "app": "https://github.com/AntoninJuquel/extended-reality-esiee",
-    "member": [
+    "source": "https://github.com/AntoninJuquel/extended-reality-esiee",
+    "report": "https://github.com/AntoninJuquel/extended-reality-esiee/blob/master/Assets/E4FI_2022_2023_DocDesignVR_SuperWash_JuquelEscaffreTadresHiruthayaraj.pdf?raw=true",
+    "application": "",
+    "members": [
       {
         "name": "",
         "img": "",
@@ -115,6 +120,7 @@
     "date": "2023",
     "description": "",
     "image": "https://github.com/proxynet-org/client/blob/master/assets/icons/icon.png?raw=true",
+    "video": "https://www.youtube.com/download_my_video?v=JDwuGOQxVdw&t=QUFFLUhqbjg3OHpyb3BlRzZSSlFoX2hRVGp1eXYwdG9ZZ3xBQ3Jtc0tsdG56dGRjNnkxU05JeFNoeUpCRmNfMzRFcWwzeW85X0dwSjJuRjc0OUJfam0zWWh5YlRiRmNDemNEQXB1d2M1WHF0bkJMTUc5OEw5c3pHTHJQekY3RUpiQjl2ZGlrSk5Bc3BsRGhKTHhvS1o5dUJNcw%3D%3D",
     "tags": [
       "React Native",
       "Typescript",
@@ -123,9 +129,9 @@
       "School Project"
     ],
     "category": "Mobile application",
-    "github": "https://github.com/orgs/proxynet-org/repositories",
-    "app": "https://play.google.com/store/apps/details?id=com.proxynet",
-    "member": [
+    "source": "https://github.com/orgs/proxynet-org/repositories",
+    "application": "https://play.google.com/store/apps/details?id=com.proxynet",
+    "members": [
       {
         "name": "",
         "img": "",
@@ -137,8 +143,9 @@
   {
     "title": "Meal Shape",
     "date": "2023",
-    "description": "",
+    "description": "Meal Shape is a mobile application that allows you to calculate your daily calorie needs and to have a personalized meal plan according to your goal (lose weight, gain weight, maintain your weight). This is a school project for the ESIEE Paris engineering school.",
     "image": "https://github.com/AntoninJuquel/meal-planner-esiee/blob/master/assets/icon.png?raw=true",
+    "video": "https://www.youtube.com/download_my_video?v=OZ3i32s7tCk&t=QUFFLUhqbFNCVE1hWTYwQmFZazlULUg0QUhGc2RkeTdtZ3xBQ3Jtc0ttTkpmejg4WDlyM2VneXQ4MU9WbUgwRHB6ci1tY01wZDhtaEM1QUFNWmNHYTVWMFBoek5xLTV4WDZSOTlWVE9uaUtZazBCOE9xUnl5bjRyckQ0eFBURm5QVzJHYm1IZ2x4dEE3aTVOMjdfaWo4VVhoRQ%3D%3D",
     "tags": [
       "React Native",
       "Typescript",
@@ -147,18 +154,18 @@
       "School Project"
     ],
     "category": "Mobile application",
-    "github": "https://github.com/AntoninJuquel/meal-planner-esiee",
-    "app": "https://play.google.com/store/apps/details?id=com.mealshape",
-    "member": [
+    "source": "https://github.com/AntoninJuquel/meal-planner-esiee",
+    "application": "https://play.google.com/store/apps/details?id=com.mealshape",
+    "members": [
       {
         "name": "",
         "img": "",
         "linkedin": "",
         "github": ""
       }
-    ]
+    ],
+    "readme": "https://raw.githubusercontent.com/AntoninJuquel/meal-planner-esiee/master/README.md"
   },
-  
   {
     "title": "Don't Screw Up Stanley",
     "date": "2022",
@@ -166,9 +173,9 @@
     "image": "https://github.com/AntoninJuquel/gamejam-esiee/blob/main/Assets/thunder-removebg-preview.png?raw=true",
     "tags": ["Unity", "C#", "Game Jam", "Itchio", "School Project"],
     "category": "Video Game",
-    "github": "https://github.com/AntoninJuquel/gamejam-esiee",
-    "app": "https://github.com/AntoninJuquel/gamejam-esiee",
-    "member": [
+    "source": "https://github.com/AntoninJuquel/gamejam-esiee",
+    "application": "https://github.com/AntoninJuquel/gamejam-esiee",
+    "members": [
       {
         "name": "",
         "img": "",
@@ -184,9 +191,9 @@
     "image": "https://github.com/AntoninJuquel/planet-lander-esiee/blob/main/Assets/Sprites/Spaceships/enemy_A.png?raw=true",
     "tags": ["Unity", "C#", "Game Jam", "Itchio", "School Project"],
     "category": "Video Game",
-    "github": "https://github.com/AntoninJuquel/planet-lander-esiee",
-    "app": "https://github.com/AntoninJuquel/planet-lander-esiee",
-    "member": [
+    "source": "https://github.com/AntoninJuquel/planet-lander-esiee",
+    "application": "https://github.com/AntoninJuquel/planet-lander-esiee",
+    "members": [
       {
         "name": "",
         "img": "",
@@ -207,9 +214,9 @@
       "Google Maps API"
     ],
     "category": "Mobile application",
-    "github": "https://github.com/AntoninJuquel/Cheat_Alleycat",
-    "app": "https://github.com/AntoninJuquel/Cheat_Alleycat",
-    "member": [
+    "source": "https://github.com/AntoninJuquel/Cheat_Alleycat",
+    "application": "",
+    "members": [
       {
         "name": "",
         "img": "",
@@ -225,9 +232,9 @@
     "image": "https://github.com/AntoninJuquel/Out-Of-Bounce/blob/main/Assets/Art/Textures/Icon.png?raw=true",
     "tags": ["Unity", "C#", "Mobile Game", "Itchio", "Play Store"],
     "category": "Video Game",
-    "github": "https://github.com/AntoninJuquel/Out-Of-Bounce",
-    "app": "https://play.google.com/store/apps/details?id=com.kibblecorp.outofbounce",
-    "member": [
+    "source": "https://github.com/AntoninJuquel/Out-Of-Bounce",
+    "application": "https://play.google.com/store/apps/details?id=com.kibblecorp.outofbounce",
+    "members": [
       {
         "name": "",
         "img": "",
@@ -243,9 +250,9 @@
     "image": "https://img.itch.zone/aW1nLzQ0MDAyOTQucG5n/315x250%23c/QrWZaG.png",
     "tags": ["Unity", "C#", "Game Jam", "Game Development", "Itchio"],
     "category": "Video Game",
-    "github": "https://github.com/AntoninJuquel/The-Indie-Games-Lab-Jam-11",
-    "app": "https://somindras.itch.io/voltventure",
-    "member": [
+    "source": "https://github.com/AntoninJuquel/The-Indie-Games-Lab-Jam-11",
+    "application": "https://somindras.itch.io/voltventure",
+    "members": [
       {
         "name": "",
         "img": "",
@@ -261,9 +268,9 @@
     "image": "https://img.itch.zone/aW1nLzM3MjMwMDcucG5n/315x250%23c/FRfmbU.png",
     "tags": ["Unity", "C#", "Game Jam", "Game Development", "Itchio"],
     "category": "Video Game",
-    "github": "https://github.com/AntoninJuquel/The-Indie-Games-Lab-Jam-07",
-    "app": "https://somindras.itch.io/cupgrade",
-    "member": [
+    "source": "https://github.com/AntoninJuquel/The-Indie-Games-Lab-Jam-07",
+    "application": "https://somindras.itch.io/cupgrade",
+    "members": [
       {
         "name": "",
         "img": "",
@@ -279,9 +286,9 @@
     "image": "https://img.itch.zone/aW1nLzM1OTk5MzAucG5n/315x250%23c/5IOjSk.png",
     "tags": ["Unity", "C#", "Game Jam", "Game Development", "Itchio"],
     "category": "Video Game",
-    "github": "https://github.com/AntoninJuquel/The-Indie-Games-Lab-Jam-06",
-    "app": "https://somindras.itch.io/train-your-mind",
-    "member": [
+    "source": "https://github.com/AntoninJuquel/The-Indie-Games-Lab-Jam-06",
+    "application": "https://somindras.itch.io/train-your-mind",
+    "members": [
       {
         "name": "",
         "img": "",
@@ -297,9 +304,9 @@
     "image": "https://img.itch.zone/aW1nLzM0MzAxMDkucG5n/315x250%23c/zfBCp1.png",
     "tags": ["Unity", "C#", "Game Jam", "Game Development", "Itchio"],
     "category": "Video Game",
-    "github": "https://github.com/AntoninJuquel/The-Indie-Games-Lab-Jam-04",
-    "app": "https://somindras.itch.io/island-invasion",
-    "member": [
+    "source": "https://github.com/AntoninJuquel/The-Indie-Games-Lab-Jam-04",
+    "application": "https://somindras.itch.io/island-invasion",
+    "members": [
       {
         "name": "",
         "img": "",
@@ -315,9 +322,9 @@
     "image": "https://img.itch.zone/aW1nLzMzMzY5MTMucG5n/315x250%23c/%2FEjA15.png",
     "tags": ["Unity", "C#", "Game Jam", "Game Development", "Itchio"],
     "category": "Video Game",
-    "github": "https://github.com/AntoninJuquel/The-Indie-Games-Lab-Jam-03",
-    "app": "https://somindras.itch.io/crazy-lights",
-    "member": [
+    "source": "https://github.com/AntoninJuquel/The-Indie-Games-Lab-Jam-03",
+    "application": "https://somindras.itch.io/crazy-lights",
+    "members": [
       {
         "name": "",
         "img": "",
@@ -333,9 +340,9 @@
     "image": "https://github.com/AntoninJuquel/simon/blob/master/simonIco.png?raw=true",
     "tags": ["HTML", "CSS", "Javascript"],
     "category": "Web application",
-    "github": "https://github.com/AntoninJuquel/simon",
-    "app": "https://antoninjuquel.github.io/simon/",
-    "member": [
+    "source": "https://github.com/AntoninJuquel/simon",
+    "application": "https://antoninjuquel.github.io/simon/",
+    "members": [
       {
         "name": "",
         "img": "",
@@ -351,9 +358,9 @@
     "image": "https://github.com/AntoninJuquel/drumkit/blob/master/images/drumIco.png?raw=true",
     "tags": ["HTML", "CSS", "Javascript"],
     "category": "Web application",
-    "github": "https://github.com/AntoninJuquel/drumkit",
-    "app": "https://antoninjuquel.github.io/drumkit/",
-    "member": [
+    "source": "https://github.com/AntoninJuquel/drumkit",
+    "application": "https://antoninjuquel.github.io/drumkit/",
+    "members": [
       {
         "name": "",
         "img": "",
@@ -369,9 +376,9 @@
     "image": "https://github.com/AntoninJuquel/fingerdice/blob/master/images/dice.png?raw=true",
     "tags": ["HTML", "CSS", "Javascript"],
     "category": "Web application",
-    "github": "https://github.com/AntoninJuquel/fingerdice",
-    "app": "https://antoninjuquel.github.io/fingerdice/",
-    "member": [
+    "source": "https://github.com/AntoninJuquel/fingerdice",
+    "application": "https://antoninjuquel.github.io/fingerdice/",
+    "members": [
       {
         "name": "",
         "img": "",
