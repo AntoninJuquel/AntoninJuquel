@@ -1,0 +1,34 @@
+[
+  {
+    "name": "TOEIC",
+    "description": "Test of English for International Communication",
+    "link": "https://www.ets.org/toeic",
+    "grade": "920",
+    "date": "2019-12-01",
+    "image": "https://www.ets.org/toeic/images/TOEIC_Logo_Stacked_White.png"
+  },
+  {
+    "name": "Voltaire",
+    "description": "French language test",
+    "link": "https://www.projet-voltaire.fr/",
+    "grade": "696",
+    "date": "2019-12-01",
+    "image": "https://www.projet-voltaire.fr/wp-content/themes/voltaire/images/logo-voltaire.svg"
+  },
+  {
+    "name": "Neo4j Certified Professional",
+    "description": "Neo4j expert with existing experience and skills",
+    "link": "https://graphacademy.neo4j.com/courses/neo4j-certification/",
+    "grade": "100%",
+    "date": "2020-01-01",
+    "image": "https://graphacademy.neo4j.com/images/neo4j-certified-professional.png"
+  },
+  {
+    "name": "Neo4j Graph Data Science Certification",
+    "description": "Execute graph algorithms that operate on the nodes and relationships in a graph.",
+    "link": "https://graphacademy.neo4j.com/courses/gds-certification/",
+    "grade": "100%",
+    "date": "2020-01-01",
+    "image": "https://graphacademy.neo4j.com/images/neo4j-graph-data-science-certification.png"
+  }
+]

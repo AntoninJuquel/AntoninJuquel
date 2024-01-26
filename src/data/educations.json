@@ -4,23 +4,26 @@
     "school": "ESIEE Paris",
     "date": "2021 - 2024",
     "grade": "N/A",
-    "description": "To train computer engineers with a strong understanding of industrial applications of 3D technology, including various production chains (Computer-Aided Design, animation, virtual reality), and diverse technological platforms (PC, smartphones, Web, consoles).",
-    "degree": "Master of Computer Science and Applications 3D Engineering and Media Technology"
+    "description": "Strong understanding of industrial applications of 3D technology, including various production chains (Computer-Aided Design, animation, virtual reality), and diverse technological platforms (PC, smartphones, Web, consoles).",
+    "degree": "Master of Computer Science and Applications 3D Engineering and Media Technology",
+    "diploma": ""
   },
   {
     "img": "https://www.gpi2d.greta.fr/app/uploads/2021/10/Louis-Armand.jpg",
     "school": "Lycée Louis Armand",
     "date": "2019 - 2021",
-    "grade": "361.02",
-    "description": "Training focused on equipping students with skills in Information Technology Services for Organizations, emphasizing the development and implementation of software solutions tailored to meet the specific needs of businesses.",
-    "degree": "BTS SIO (Services Informatiques aux Organisations), option SLAM (Solutions Logicielles et Applications Métiers)"
+    "grade": "82.05%",
+    "description": "Skills in Information Technology Services for Organizations, emphasizing the development and implementation of software solutions tailored to meet the specific needs of businesses.",
+    "degree": "BTS SIO (Services Informatiques aux Organisations), option SLAM (Solutions Logicielles et Applications Métiers)",
+    "diploma": ""
   },
   {
     "img": "https://www.aulnay-sous-bois.fr/wp-content/uploads/2019/10/logo-region-ile-de-france.png",
     "school": "Lycée Romain Rolland",
     "date": "2018",
-    "grade": "14.5",
-    "description": "Aims to provide a strong foundation in scientific disciplines, including mathematics, physics, chemistry, and biology, preparing students for various scientific and technical fields at the university level. Focuses on Computer Science and Digital Sciences, aiming to develop students' proficiency in programming, algorithms, and understanding the impact of digital technologies on society.",
-    "degree": "Baccalauréat S (Scientifique), spécialité ISN (Informatique et Sciences du Numérique)"
+    "grade": "70.25%",
+    "description": "Provide a strong foundation in scientific disciplines, including mathematics, physics, chemistry, and biology. With an additional focus on Computer Science and Digital Sciences, to develop a proficiency in programming, algorithms, and understanding the impact of digital technologies on society.",
+    "degree": "Baccalauréat S (Scientifique), spécialité ISN (Informatique et Sciences du Numérique)",
+    "diploma": ""
   }
 ]
