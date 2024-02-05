@@ -12,6 +12,10 @@ import Stack from "@mui/material/Stack";
 import Chip from "@mui/material/Chip";
 import Autocomplete from "@mui/material/Autocomplete";
 import TextField from "@mui/material/TextField";
+import Select from "@mui/material/Select";
+import FormControl from "@mui/material/FormControl";
+import InputLabel from "@mui/material/InputLabel";
+import MenuItem from "@mui/material/MenuItem";
 import { useTheme } from "@mui/material/styles";
 
 import Section from "./common/Section";
@@ -89,11 +93,30 @@ function Projects({ setModalState }: Props) {
         value={activeCategory}
         onChange={(_, value) => setActiveCategory(value)}
         centered
+        sx={{
+          display: { xs: "none", md: "flex" },
+        }}
       >
         {categories.map((category) => (
           <Tab key={category} label={category} value={category} />
         ))}
       </Tabs>
+      <FormControl sx={{ display: { xs: "flex", md: "none" }, marginTop: 2 }}>
+        <InputLabel id="category-select-label">Category</InputLabel>
+        <Select
+          labelId="category-select-label"
+          id="category-select"
+          label="Category"
+          value={activeCategory}
+          onChange={(e) => setActiveCategory(e.target.value)}
+        >
+          {categories.map((category) => (
+            <MenuItem key={category} value={category}>
+              {category}
+            </MenuItem>
+          ))}
+        </Select>
+      </FormControl>
       <Grid container spacing={3} mt={4}>
         {projectsToRender.length > 0 ? (
           projectsToRender.map((project) => (
