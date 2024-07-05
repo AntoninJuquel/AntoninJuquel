@@ -1,5 +1,43 @@
 [
   {
+    "title": "Verity",
+    "date": "2024",
+    "description": "A website to solve Salvation's Edge 4th encounter puzzle named Verity from Destiny 2 video game",
+    "image": "https://github.com/AntoninJuquel/verity/assets/57025128/8624561b-7d2a-49a7-ae51-7af15b9cecaa",
+    "tags": ["React", "Typescript", "Video Game", "Destiny2"],
+    "category": "Web application",
+    "source": "https://github.com/AntoninJuquel/verity/tree/master",
+    "application": "https://antoninjuquel.github.io/verity/",
+    "members": [
+      {
+        "name": "",
+        "img": "",
+        "linkedin": "",
+        "github": ""
+      }
+    ],
+    "readme": "https://raw.githubusercontent.com/AntoninJuquel/verity/master/README.md"
+  },
+  {
+    "title": "Text Factory",
+    "date": "2024",
+    "description": "A simple desktop app to easily write documents from template files",
+    "image": "https://github.com/AntoninJuquel/text-factory/blob/master/resources/icon.png?raw=true",
+    "tags": ["Electron", "React", "Typescript"],
+    "category": "Desktop application",
+    "source": "https://github.com/AntoninJuquel/text-factory/tree/master",
+    "application": "https://github.com/AntoninJuquel/text-factory/releases/tag/v1.0.0",
+    "members": [
+      {
+        "name": "",
+        "img": "",
+        "linkedin": "",
+        "github": ""
+      }
+    ],
+    "readme": "https://raw.githubusercontent.com/AntoninJuquel/text-factory/master/README.md"
+  },
+  {
     "title": "Lethal Company Mod: Lockout",
     "date": "2024",
     "description": "A simple mod for the game Lethal Company, that lockout the facility for a period of time",
