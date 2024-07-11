@@ -17,10 +17,15 @@ function About() {
   return (
     <Section id="about">
       <Stack
-        direction={{ xs: "column-reverse", sm: "row" }}
+        direction={{ xs: "column", sm: "row" }}
         spacing={2}
         alignItems="center"
       >
+        <Avatar
+          src={about.image}
+          alt={about.firstName}
+          sx={{ width: "35%", height: "35%", minWidth: 300, minHeight: 300 }}
+        />
         <Box>
           <Typography
             variant="h3"
@@ -59,20 +64,24 @@ function About() {
             sx={{
               mt: 2,
               fontSize: 20,
-              borderRadius: 5,
+              borderRadius: 50,
               padding: 2,
               textTransform: "none",
+              border: `1px solid ${theme.palette.primary.main}`,
+              boxShadow: `${theme.palette.primary.main} 0px 4px 24px;`,
+              transition: "all .3s ease-in-out",
+              ":hover": {
+                transform: "scale(1.05)",
+                border: `1px solid ${theme.palette.primary.main}`,
+                boxShadow: `${theme.palette.primary.main} 0px 4px 24px;`,
+                backgroundColor: theme.palette.primary.main,
+              },
             }}
             href={about.resume}
           >
-            Check Resume
+            Download Resume
           </Button>
         </Box>
-        <Avatar
-          src={about.image}
-          alt={about.firstName}
-          sx={{ width: "35%", height: "35%", minWidth: 300, minHeight: 300 }}
-        />
       </Stack>
     </Section>
   );
