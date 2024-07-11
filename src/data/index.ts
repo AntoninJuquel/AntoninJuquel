@@ -25,4 +25,8 @@ export const sections = {
     url: "https://raw.githubusercontent.com/AntoninJuquel/AntoninJuquel/main/src/data/educations.json",
     data: educations,
   },
+  contact: {
+    url: "",
+    data: {},
+  }
 };
