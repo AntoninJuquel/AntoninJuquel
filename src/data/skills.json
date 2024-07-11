@@ -25,6 +25,10 @@
       {
         "name": "MUI",
         "image": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
+      },
+      {
+        "name": "Tailwind CSS",
+        "image": "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg"
       }
     ]
   },
